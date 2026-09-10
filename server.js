@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🔴 v2 server running on port ${PORT} — health check is BROKEN`);
-});
+});// retry with real registry creds
